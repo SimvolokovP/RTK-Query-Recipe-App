@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    background-color: #202020;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.recipes-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(6, calc(100% / 6 - 30px / 6*(6 - 1)));
+    gap: 30px;
+    color: #fff;
+}
+
+.recipe-item {
+    background-color: #363636;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 8px;
+    align-items: center;
+    padding: 8px;
+}
+
+.recipe-item img {
+    width: 150px;
+}
+
+.header {
+    padding: 10px 0;
+    background-color: #363636;
+    border-radius: 8px;
+    position: relative;
+}
+
+.favorites-list {
+    position: fixed;
+    right: -100%;
+    width: 250px;
+    background-color: #202020;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    list-style-type: none;
+    padding: 16px;
+    border-radius: 16px;
+    z-index: 20;
+    border: 2px solid #c77683;
+    color: #fff;
+    height: 180px;
+    overflow-y: auto;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    transition: all .3s ease-in-out;
+}
+
+.favorites-list__close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: transparent;
+    color: #c77683;
+    border: none;
+    display: block;
+    cursor: pointer;
+}
+
+.favorites-list.open {
+    right: 8px;
+    transition: all .3s ease-in-out;
+}
+
+.favorites-list li {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.favorites-list li img {
+    width: 64px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__fav {
+    background-color: transparent;
+    padding: 0;
+    display: block;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 24px;
+}
+
+.header__fav span {
+    font-size: 16px;
+}
+
+.recipe-item h3 {
+    margin: 0;
+    min-height: 54px;
+}
+
+.recipe-item button {
+    background-color: #c77683;
+    display: block;
+    color: #fff;
+    border-radius: 8px;
+    padding: 4px 8px;
+    cursor: pointer;
+    border: none;
+    width: 80px;
+}
+
+section {
+    padding: 60px 0;
+}

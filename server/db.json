@@ -1,0 +1,39 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "name": "Spicy Arrabiata Penne",
+      "image": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Corba",
+      "image": "https://www.themealdb.com/images/media/meals/58oia61564916529.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Tamiya",
+      "image": "https://www.themealdb.com/images/media/meals/n3xxd91598732796.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Lasagne",
+      "image": "https://www.themealdb.com/images/media/meals/wtsvxx1511296896.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Kafteji",
+      "image": "https://www.themealdb.com/images/media/meals/1bsv1q1560459826.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Big Mac",
+      "image": "https://www.themealdb.com/images/media/meals/urzj1d1587670726.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Shakshuka",
+      "image": "https://www.themealdb.com/images/media/meals/g373701551450225.jpg"
+    }
+  ]
+}
